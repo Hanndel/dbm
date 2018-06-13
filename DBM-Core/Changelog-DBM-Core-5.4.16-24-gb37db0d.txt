@@ -1,0 +1,25 @@
+subversion:
+	- Omega via svn r11403: here
+	- Omega via svn r11400: make the zone change code smarter, so it doesn't fire useless routeens during middle of boss fights like garrosh, sha of fear, alakir, etc that have mid fight loading screens.
+	- nbluewiz via svn r11397: # koKR update.
+	- Omega via svn r11395: somehow, people's bombardment counts are getting out of sync, which really shouldn't be possible unless bad syncing is going with variables. without sufficient data and only speculation to go on, just adding an extra reset in on phase 4 start for extra measure.
+	- Omega via svn r11393: BR update. unverified
+	- nbluewiz via svn r11391: # Remove CRT Option from live version. # koKR update.
+	- nbluewiz via svn r11389: # Add debug message function. # Galakras : Fix bad timer.
+	- nbluewiz via svn r11388: # Fix non-working timer recovery after reload ui.
+	- TOM_RUS via svn r11382: ruRU updates
+	- nbluewiz via svn r11379: # Improve WBE, WBD sync. # Improve WoD combat logging code. # Remove more WoD code from live version.
+	- nbluewiz via svn r11378: # (Live) Remove WoD compatible code in live version. # (Live) Sync core and gui changes. # (WoD) Bump WoD branch version. # (WoD) Fix stats display bug.
+	- Omega via svn r11375: br update
+	- Omega via svn r11373: Unverified br translations for SoO
+	- nbluewiz via svn r11372: # Revert SPELL_PERIODIC_DAMAGE filter. # koKR update.
+	- ultrashining via svn r11366: zhTW update
+	- Omega via svn r11365: Convert several warnings to taunt type, enable by default. Enable any PERSONAL warnings for all by default too, it's already filtered by the fact that the only person who gets them is person affected by it. basically, any Stack or You warning should be enabled by default regardless of spec, if it's a personal warning.
+	- Omega via svn r11362: Add option to control the global tank filter
+	- Omega via svn r11349: Untested blocker for taunt warnings when not tank spec.
+	- Omega via svn r11348: Untested blocker for taunt warnings when not tank spec.
+	- Omega via svn r11347: fixes
+	- Omega via svn r11346: Try this extra fix
+	- Omega via svn r11345: actually just do this
+	- Omega via svn r11344: Allow arc warnings for melee even if they join in late. It's safe to assume that if melee are targeting boss1 or boss2, they are probably attacking/in range of it.
+	- Omega via svn r11343: increment alpha
